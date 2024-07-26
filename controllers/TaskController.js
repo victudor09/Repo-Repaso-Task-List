@@ -1,4 +1,6 @@
 const Task = require('../models/Task')
+require('dotenv').config()
+
 
 const TaskController = {
     async create(req, res) {
